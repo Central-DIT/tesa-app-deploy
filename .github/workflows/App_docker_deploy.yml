@@ -1,4 +1,3 @@
-
 name: App Image Build, Push & Update
 
 on:
