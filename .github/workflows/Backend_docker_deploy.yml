@@ -77,7 +77,7 @@ jobs:
   # ---------------------- APPROVAL ----------------------
   approval:
     name: Approval
-    if: ${{ inputs.environment == 'prod' }}
+    # if: ${{ inputs.environment == 'prod' }}
     needs: build-image
     runs-on: ubuntu-latest
     environment:
